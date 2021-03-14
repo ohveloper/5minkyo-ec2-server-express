@@ -6,6 +6,6 @@ app.use("/", (req, res) => {
   res.send("hello world node server !");
 });
 
-app.listen(5000, () => {
-  console.log("server on 5000");
+app.listen(80, () => {
+  console.log("server on 80");
 });
